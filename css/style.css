@@ -1,0 +1,394 @@
+*{
+    max-width: 100%;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color:  rgb(240,255,248);
+
+}
+.bemvindo{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 17px;
+    background: linear-gradient(#b4fc9f, rgb(240,255,248)); 
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 2em;
+    font-style: normal;
+    border-radius: 0 0 15px 15px;
+    color: #565656;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descricao-site{
+    margin-top: 2em;
+    background-color: rgb(240,255,248);
+}
+.peixepersonal {
+    width: 1280px;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 2em;
+    background-color: #fefefe;
+    box-shadow:  5px 5px 20px rgba(0, 0, 0, 0.247);
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.peixefoto{
+    width: 35%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.peixepersonal li{
+    width: 95%;
+    position: relative;
+    display: flex;
+    text-align: justify;
+    font-size: 2.0em;
+    font-weight: bold;
+    padding: 2% ;
+    margin:0 10px 0 10px ;
+    font-family: 'Roboto', sans-serif;
+}
+.kinesisfuncional{
+    width: 1280px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    box-shadow:  5px 5px 20px rgba(0, 0, 0, 0.247);
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.kinesisfoto{
+    width: 60%;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.textokinesis{
+    padding: 0 1%;
+    width: 40%;
+    display: inline-flex;
+    font-size: 1.8em;
+    text-align: center;
+    align-items: center;
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;
+}
+/* 
+.bemvindo::first-letter{
+    font-size: 2em;
+    color: black;
+}
+.textokinesis p::first-line{
+    font-style: italic;
+} */
+em strong{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+.mapa{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 3em 0;
+    background-color:  rgb(240,255,248);
+}
+.mapa p{
+    padding: 3em 0;
+    text-align: center;
+}
+.mapa iframe{
+    box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.459);
+}
+.mapa-conteudo{
+    width: 1280px;
+    margin: 0 auto;
+}
+.localizacao, .beneficios h2{
+    width: 100%;
+    text-align: center;
+    padding-top: 17px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    color: #000;
+}
+.beneficios {
+    background: rgb(240,255,248);
+    font-size: 20px;
+    padding: 3em 0;
+    border-radius: 15px 15px 0 0;
+}
+.itens{
+    font-family: 'Roboto', sans-serif;
+    line-height:1.5 ;
+    padding: 0.5em;
+}
+.itens::before{
+    content: "★ ";
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.beneficios h2{
+    text-align: center;
+	font-size: 2em;
+	padding-bottom: 2em;
+}
+.conteudo-beneficios{
+    width: 800px;
+    margin: 0 auto;
+}
+.lista-beneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 2em;
+}
+.imagem-beneficios{
+    width: 60%;
+    opacity: 1;
+}
+.imagem-beneficios:hover{
+    opacity: 0.7;
+}
+.beneficios h3{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: crimson;
+    color: #FFF;
+    line-height: 2;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.514);
+}
+
+.post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 3em 0;
+    background-color:  rgb(240,255,248);
+
+}
+.post > iframe{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 3em 0;
+    background-color: #FFF;
+    box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.459);
+}
+
+.box2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.fim{
+    width: 12%;
+    box-shadow:  5px 5px 20px #00000063;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.fim:hover{
+    transition: transform .9s;
+    transform: scale(2.0);
+}
+
+@media (max-width: 1400px){
+    .peixepersonal li{
+        font-size: 1.85em;
+    }
+    .textokinesis{
+        font-size: 1.8em;
+    }
+}
+@media (max-width: 1200px){
+    .peixepersonal, .kinesisfuncional{
+        position: relative;
+        display: inline-flex;
+        margin: 0 0 1em;
+    }
+    .peixepersonal li{
+        text-align: justify;
+        font-size: 1.7em;
+        padding: 2%;
+        margin:0 10px 0 10px ;
+    } 
+    .textokinesis {
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 1024px){
+    .peixepersonal li{
+        font-size: 1.4em;
+        padding: 2%;
+    }
+    .textokinesis{
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .produtos {
+        display: inline-flex;
+    }
+    .produtos h2{
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 800px){
+
+    .peixepersonal, .textokinesis{
+        width: 100%;
+        align-items: center;
+    }
+    .peixepersonal li{
+        padding: 1.5%;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .textokinesis{
+        padding: 1%;
+        font-size: 1em;
+    }
+    .beneficios h3{
+        font-size: 1.2em;
+    }
+    .produtos {
+        position: relative;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+    }
+    #personal{
+        margin-top: 5%;
+    }
+    .produtos li{
+        position: relative;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .produtos h2{
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 720px){
+  
+    .peixepersonal li{
+        font-size: 1.1em;
+    }
+    .lista-beneficios{
+        display: block;
+        width: 100%;
+    }
+    .imagem-beneficios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .beneficios h3{
+        font-size: 1em;
+    }
+    .produtos {
+        width: 60%;
+    }
+}
+@media (max-width: 640px){
+ 
+    .peixepersonal li{
+        padding: 1%;
+        font-size: 1em;
+    }
+    .textokinesis{
+        padding: 1%;
+        font-size: 0.8em;
+    }
+    .produtos {
+        width: 70%;
+    }
+  
+}
+@media screen and (max-width: 480px) {
+
+    .bemvindo{
+        font-size: 1.5em;
+    }
+    .peixepersonal, .textokinesis{
+        width: 100%;
+        display: flex;
+    }
+    .peixepersonal li{
+        padding: 1%;
+        font-size: 0.8em;
+        font-weight: bold;
+        align-items: center;
+    }
+    .textokinesis{
+        padding: 1%;
+        font-size: 0.6em;
+        font-weight: bold;
+        align-items: center;
+    }
+    .beneficios h2{
+        font-size: 1.7em;
+    }
+    .beneficios h3{
+        font-size: 1em;
+    }
+    .produtos {
+        width: 75%;
+    }
+    .enviar{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .peixepersonal, .textokinesis{
+        width: 100%;
+        display: flex;
+    }
+    .peixepersonal li{
+        padding: 1%;
+        font-size: 0.7em;
+    }
+    .textokinesis{
+        padding: 1%;
+        font-size: 0.5em;
+    }
+    .beneficios h2{
+        font-size: 1.7em;
+    }
+    .beneficios h3{
+        font-size: 0.8em;
+    }
+    .produtos {
+        width: 80%;
+    }
+    .enviar{
+        font-size: 14px;
+    }
+}
